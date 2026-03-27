@@ -1,0 +1,11 @@
+git init
+git add .
+git commit -m "Project start"
+git branch new-feature
+git checkout new-feature
+# make changes
+git add .
+git commit -m "Added feature"
+git checkout main
+git merge new-feature
+git push origin main
